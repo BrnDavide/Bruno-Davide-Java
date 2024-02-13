@@ -47,18 +47,12 @@ public class Esercitazione4 {
             nomi.remove(i);
             System.out.println(nomi);
         }
-
-
         //Esercizio 5 (filter): data una lista con 15 numeri, creare una nuova lista con solo quelli in posizione dispari.
-
-
-
-
-
-
-
-
-
+        //Esercizio 6 (terminale - while): chiedere in loop all'utente un numero da 1 a 4. Far eseguire una delle seguenti azioni.
+        /*1 = inserimento numero lista
+        2 = rimozione numero lista
+        3 = stampa lista
+        4 = chiusura del programma.*/
 
     }
 }
