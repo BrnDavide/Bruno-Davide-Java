@@ -48,7 +48,7 @@ public class BooleaniEIfElse {
         System.out.println(nome=="ADavide".substring(1));
         //corretto
         System.out.println(nome.equals("ADavide".substring(1)));
-        System.out.println(nome.equalsIgnoreCase("ddavide".substring(1)));*/ //metodo IgnoreCase();
+        System.out.println(nome.equalsIgnoreCase("ddavide".substring(1))); //metodo IgnoreCase();*/
         //Es 1
         /*System.out.println("Inserire password: ");
         String password1= tastiera.nextLine();
@@ -63,7 +63,7 @@ public class BooleaniEIfElse {
         System.out.println(condizione);*/
 
         //Es 3
-        String nomeUtente= tastiera.nextLine();
+        /*String nomeUtente= tastiera.nextLine();
         String password= tastiera.nextLine();
         boolean condizione= nomeUtente.equals("utente") && password.equals("password");
         //System.out.println(condizione); qui può finire. Sotto l'alternativa con if/else.
@@ -71,24 +71,7 @@ public class BooleaniEIfElse {
             System.out.println("messaggio segreto");
         } else {
             System.out.println("User e/o password errati");
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }*/
 
     }
 }
