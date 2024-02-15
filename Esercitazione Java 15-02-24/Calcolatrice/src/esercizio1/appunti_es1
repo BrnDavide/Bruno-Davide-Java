@@ -1,0 +1,22 @@
+Scopo: Il programma deve implementare una calcolatrice che esegua le 4 operazioni.
+
+-A seguito dell'inserimento di due numeri e della scelta dell'operazione da parte dell'utente
+il programma deve restituire il risultato.
+
+-Il programma deve accettare numeri interi e decimali.
+
+-Implementare i metodi Math per aggiungere funzioni trigonometriche.
+Siccome le funz Math non hanno necessariam. bisogno di 2 num chiederli all'utente fin dall'inizio non ha senso.
+Bisogna far scegliere il tipo di operazione fin dal'inizio.
+
+Funzioni potenza e rad quadrata.
+
+- Alla fine sostituire le operazioni con le funzioni.
+
+- Dopo aver implementato le funzioni chiedere all'utente se vuole rieseguire un calcolo con un booleano y/n.
+    Se premuto n chiudere programma con messaggio.
+
+- Aggiungere un pezzo che controlli divisibilità per : 2,3,4,5.
+
+- Ultima funzione: controllare divisibilità (resto===0) tra due numeri qualsiasi.
+
