@@ -21,10 +21,10 @@ public class CalcolatriceClassica {
             System.out.println("Immetti il " + (i + 1) + "° numero");
             double num2 = Integer.parseInt(tastiera.nextLine());
 
-            //Scelta operazione
+            //Scelta operazione, notazione polacca inversa
             System.out.println("Scegli operazione");
             String operator = tastiera.nextLine();
-
+            //Inizio operazioni semplici(+,-,*,/)
             if (operator.equals("+")) {
                 System.out.println("Ris: " + (num1 + num2));
             }//end sum if
@@ -42,8 +42,9 @@ public class CalcolatriceClassica {
                 }//end else
             }//end divide if-else
         }//end if choice
+        //Inizio selezione 2: op trigonometriche
         else if(choice.equals("2")){
-            System.out.println("Premi:"+"\t 1) Radice quadrata" + "\t2)Potenza");
+            System.out.println("Premi:"+"\n1) Radice quadrata" + "\n2) Potenza");//\t
             String opTrigon= tastiera.nextLine();
             switch (opTrigon) {
                 case "1":
@@ -57,8 +58,10 @@ public class CalcolatriceClassica {
                     double num4 = Integer.parseInt(tastiera.nextLine());
                     System.out.println("A quanto lo eleviamo?");
                     double potenza = Integer.parseInt(tastiera.nextLine());
-                    System.out.println("Ris: " + Math.pow(num4, potenza));
+                    System.out.println("Tot: " + Math.pow(num4, potenza));
                     break;
+                default:
+                    int n= Integer.parseInt(opTrigon);
             }//end switch
 
         }//end choice
