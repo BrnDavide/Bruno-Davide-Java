@@ -3,10 +3,10 @@ package Lezione4;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EsCasa {
+//public class EsCasa {
     /**Esercizio 4 crea un metodo stampa che accetta una List<Integer> e stampa la lista di interi nel seguente modo:
      "Lista [ n1 n2 n3 n4 n5]"*/
-    public static void Stampa(List<Integer> n) {
+    /**public static void Stampa(List<Integer> n) {
 
         System.out.println(min(1,2));
         System.out.println(contrario("Filippo"));
@@ -18,4 +18,4 @@ public class EsCasa {
 
 
     }
-}//end Class
+}//end Class*/
